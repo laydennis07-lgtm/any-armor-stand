@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "anyarmorstand",
+	"version": "${version}",
+	"name": "Any Armor Stand",
+	"description": "Sieh einen Armor Stand an und drücke J: In einem Menü wählst du ein Item, das auf den Kopf des Armor Stands gesetzt wird, auch wenn es dort normalerweise nicht hinpasst.",
+	"authors": ["Du"],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["de.anyarmorstand.AnyArmorStandMod"],
+		"client": ["de.anyarmorstand.client.AnyArmorStandClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
